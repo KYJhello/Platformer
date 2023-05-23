@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
     private void GroundCheck()
     {
         // 레이케스트 올은 부딧쳐도 모든 오브젝트 확인
-
+ 
         // 레이를 그려 땅바닥으로 닿았는지 확인
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, groundMask);
