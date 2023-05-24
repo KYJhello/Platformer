@@ -67,18 +67,8 @@ public class PlayerTriggerControl : MonoBehaviour
     {
         Jump();
     }
-    public void OnTriggerEnter2D (Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        boxCollider.isTrigger = true;
-        Debug.Log("面倒 惯积");
-    }
-    public void OnTriggerStay2D(Collider2D collision)
-    {
-        boxCollider.isTrigger = true;
-    }
-    public void OnTriggerExit2D(Collider2D collision)
-    {
-        boxCollider.isTrigger = false;
-        Debug.Log("面倒 力芭");
+        
     }
 }
